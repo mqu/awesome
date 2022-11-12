@@ -81,11 +81,12 @@ tags: Intelligence Artificielle, réseau de neuronnes, Tensorflow, TPU
 
 
 # Glossaire
-- NVR : Network Video Recorder, enregistrement vidéo via le réseau ;
-- [PTZ](https://fr.wikipedia.org/wiki/Cam%C3%A9ra_pan_tilt_zoom) : Caméra orientable (Pan Tilt Zoom) ;
-- CCTV : Closed-Circuit TV ; système de TV privé ;
-- TPU : Tensor Processing Unit ([WP](https://fr.wikipedia.org/wiki/Tensor_Processing_Unit)) : unité de traitement d'intelligence artificielle basé sur [Tensorflow](https://fr.wikipedia.org/wiki/TensorFlow) permettant l'accélération matérielle ;
-- [ONVIF](https://en.wikipedia.org/wiki/ONVIF) : Open Network Video Interface Forum : forum de standardisation des moyens de video-surveillance sur réseau IP ([lien](https://www.onvif.org/)) ; [lien-fr](https://camera-videosurveillance.fr/blog/143_Qu-est-ce-que-le-protocole-onvif.html).
+- NVR (Network Video Recorder) : se dit des caméras permettant l'enregistrement vidéo via le réseau ;
+- [PTZ](https://fr.wikipedia.org/wiki/Cam%C3%A9ra_pan_tilt_zoom) (Pan Tilt Zoom) : Caméra orientable  ;
+- [CCTV](https://fr.wikipedia.org/wiki/CCTV) (Closed-Circuit TV) : système de TV privé permettant la surveillance vidéo ;
+- [TPU](https://fr.wikipedia.org/wiki/Tensor_Processing_Unit) (Tensor Processing Unit) : système d'accélération matérielle sur [Tensorflow](https://fr.wikipedia.org/wiki/TensorFlow) permettant de réaliser des fonctions d'intelligence artificielle ;
+- [ONVIF](https://en.wikipedia.org/wiki/ONVIF) (Open Network Video Interface Forum) : forum de standardisation des moyens de video-surveillance sur réseau IP ([lien](https://www.onvif.org/)) ; [lien-fr](https://camera-videosurveillance.fr/blog/143_Qu-est-ce-que-le-protocole-onvif.html).
+  - c'est en principe le standard sur lequel s'appuyer pour mettre en place un système de surveillance vidéo en particulier pour une solution open-source.
   - [enregistreur vidéo](https://fr.aliexpress.com/item/1005004317130185.html) basé sur le standard ONVIF.
   - [nombreuses cameras IP compatibles ONVIF](https://fr.aliexpress.com/premium/onvif.html).
 - [MQTT](https://fr.wikipedia.org/wiki/MQTT) : bus logiciel très simple largement utilisé au niveau de IOT (Internet des Objets) et domotique.
