@@ -8,7 +8,11 @@ tags: NVR,  CCTV, DIY, Linux, Self-Hosted, Open-source.
 # camera de surveillance
 
 ## Logiciels
-- [ZoneMinder](https://zoneminder.com/) : [doc](https://zoneminder.readthedocs.io/), [wiki](https://wiki.zoneminder.com), [liste de compatibilité](https://wiki.zoneminder.com/Hardware_Compatibility_List) ; [docker](https://github.com/ZoneMinder/zmdockerfiles), [github](https://github.com/ZoneMinder/ZoneMinder/)
+- [ZoneMinder](https://zoneminder.com/) : A full-featured, open source, state-of-the-art video surveillance software system.
+  - [doc](https://zoneminder.readthedocs.io/), [wiki](https://wiki.zoneminder.com), [github](https://github.com/ZoneMinder/ZoneMinder/)
+  - [liste de compatibilité](https://wiki.zoneminder.com/Hardware_Compatibility_List) avec en particulier les caméras au standard ONVIF; 
+  - [docker](https://github.com/ZoneMinder/zmdockerfiles), 
+
 - [Viseron](https://viseron.netlify.app/) : self-hosted, local only NVR and AI Computer Vision software.
   - détection d'objets, reconnaissance faciale
   - [compatible home-assistant](https://community.home-assistant.io/t/viseron-self-hosted-local-only-nvr-and-ai-computer-vision-software/223152) via MQTT
@@ -23,7 +27,7 @@ tags: NVR,  CCTV, DIY, Linux, Self-Hosted, Open-source.
   - [description](https://linuxfr.org/news/presentation-de-shinobicctv-community-edition) (fr ; un peu ancienne)
 
 - [Frigate](https://frigate.video/): Monitor your security cameras with locally processed AI
-  - 2 version : community et [pro](https://frigate.video/plus/) (Frigate+)
+  - 2 versions : community et [pro](https://frigate.video/plus/) (Frigate+)
   - très bonne intégration à Home Assistant ; nombreux [addons](https://www.home-assistant.io/addons/) ; 
   - plusieurs méthodes [d'installation](https://www.home-assistant.io/installation/) dont Docker et [docker-compose](https://www.home-assistant.io/installation/generic-x86-64#docker-compose).
   - [doc](https://docs.frigate.video/), [github](https://github.com/blakeblackshear/frigate). 
