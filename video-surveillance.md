@@ -48,8 +48,7 @@ tags: NVR,  CCTV, DIY, Linux, Self-Hosted, Open-source.
 
 domotique
 
-- [Home Assistant](https://www.home-assistant.io/) : 
-  - slogan : Open source home automation that puts local control and privacy first. 
+- [Home Assistant](https://www.home-assistant.io/) : Open source home automation that puts local control and privacy first. 
   - [démo](https://demo.home-assistant.io/), [doc](https://www.home-assistant.io/docs/), [compatibilité et intégration](https://www.home-assistant.io/integrations/), [github](https://github.com/home-assistant), [docker](https://hub.docker.com/r/homeassistant/home-assistant), [openhub](https://www.openhub.net/p/home-assistant) ;
   - alternatives : [IoBroker](https://www.iobroker.net/), [OpenHAB](https://www.openhab.org/), [CometVisu](https://www.cometvisu.org/), [Domoticz](https://domoticz.com/), [Jeedom](https://jeedom.com/en/). Faire son choix en matière de [controleur domotique](https://blog.bemotique.com/comment-choisir-un-controleur-domotique/).
 
@@ -77,14 +76,15 @@ tags: Intelligence Artificielle, réseau de neuronnes, Tensorflow, TPU
 - Github / [motion-dectection](https://github.com/topics/motion-detection).
 - Openhub : [zoneminder](https://www.openhub.net/p/zoneminder), [mition-eye](https://www.openhub.net/p/motioneye), [iSpy-Motion](https://www.openhub.net/p/ispysoftware), [motion](https://www.openhub.net/p/Motion).
 - reconnaissance / IA :
-  - Darknet / [YOLO](https://pjreddie.com/darknet/yolo/) : système de reconnaissance d'objets temps-réel ; [doc](https://thedatafrog.com/fr/articles/object-detection-darknet/) ; nécessite CUDA+OpenCV.
+  - Darknet / [YOLO](https://pjreddie.com/darknet/yolo/) : système de reconnaissance d'objets temps-réel ; [doc](https://thedatafrog.com/fr/articles/object-detection-darknet/) ; nécessite CUDA+OpenCV. Il semble plus intéressant d'utiliser une solution basée sur Coral.ai
 
 
 # Glossaire
-- NVR (Network Video Recorder) : se dit des caméras permettant l'enregistrement vidéo via le réseau ;
+- [NVR](https://fr.wikipedia.org/wiki/Enregistreur_vid%C3%A9o_en_r%C3%A9seau) (Network Video Recorder) : se dit des caméras permettant l'enregistrement vidéo via le réseau ; on peut aussi trouver des enregistreurs NVR tout-en-un.
 - [PTZ](https://fr.wikipedia.org/wiki/Cam%C3%A9ra_pan_tilt_zoom) (Pan Tilt Zoom) : Caméra orientable  ;
 - [CCTV](https://fr.wikipedia.org/wiki/CCTV) (Closed-Circuit TV) : système de TV privé permettant la surveillance vidéo ;
 - [TPU](https://fr.wikipedia.org/wiki/Tensor_Processing_Unit) (Tensor Processing Unit) : système d'accélération matérielle sur [Tensorflow](https://fr.wikipedia.org/wiki/TensorFlow) permettant de réaliser des fonctions d'intelligence artificielle ;
+- [CUDA](https://fr.wikipedia.org/wiki/Compute_Unified_Device_Architecture) (Compute Unified Device Architecture) : architecture matérielle permettant l'accélération pour les cartes graphiques et par extension pour des traitement numériques.
 - [ONVIF](https://en.wikipedia.org/wiki/ONVIF) (Open Network Video Interface Forum) : forum de standardisation des moyens de video-surveillance sur réseau IP ([lien](https://www.onvif.org/)) ; [lien-fr](https://camera-videosurveillance.fr/blog/143_Qu-est-ce-que-le-protocole-onvif.html).
   - c'est en principe le standard sur lequel s'appuyer pour mettre en place un système de surveillance vidéo en particulier pour une solution open-source.
   - [enregistreur vidéo](https://fr.aliexpress.com/item/1005004317130185.html) basé sur le standard ONVIF.
