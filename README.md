@@ -2,7 +2,7 @@
 Awesome links in French ; collection de liens en Francais
 
 # tags
-CCTV, 
+NVR,  CCTV, DIY, Linux, Self-Hosted, Open-source.
 
 
 # camera de surveillance
@@ -16,6 +16,12 @@ CCTV,
 - https://community.home-assistant.io/t/my-opinion-zoneminder-vs-motioneye-vs-shinobi/316831
 - https://blog.desdelinux.net/fr/shinobi-un-servidor-de-video-vigilancia-open-source/
 - https://community.home-assistant.io/t/my-opinion-zoneminder-vs-motioneye-vs-shinobi/316831
-- 
+- https://www.makeuseof.com/tag/awesome-diy-security-camera-clients-linux/
+- https://www.ubuntupit.com/best-linux-camera-software/
+
 # accélération
 - https://coral.ai/products/accelerator : accélérateur USB / Coral
+
+# Glossaire
+- NVR : Network Video Recorder, enregistrement vidéo via le réseau.
+- CCTV : Closed-Circuit TV ; système de TV privé
