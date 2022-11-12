@@ -9,20 +9,24 @@ tags: NVR,  CCTV, DIY, Linux, Self-Hosted, Open-source.
 
 ## Logiciels
 - [ZoneMinder](https://zoneminder.com/) : [doc](https://zoneminder.readthedocs.io/), [wiki](https://wiki.zoneminder.com), [liste de compatibilité](https://wiki.zoneminder.com/Hardware_Compatibility_List) ; [docker](https://github.com/ZoneMinder/zmdockerfiles), [github](https://github.com/ZoneMinder/ZoneMinder/)
-- [Viseron](https://viseron.netlify.app/) : 
+- [Viseron](https://viseron.netlify.app/) : self-hosted, local only NVR and AI Computer Vision software.
   - détection d'objets, reconnaissance faciale
-  - [compatible home-assistant](https://community.home-assistant.io/t/viseron-self-hosted-local-only-nvr-and-ai-computer-vision-software/223152) ;
-  - supporte accélération matérielle CUDA, CORAL (TPU)
+  - [compatible home-assistant](https://community.home-assistant.io/t/viseron-self-hosted-local-only-nvr-and-ai-computer-vision-software/223152) via MQTT
+  - supporte l'accélération matérielle CUDA, CORAL (TPU)
   - [installation](https://viseron.netlify.app/docs/documentation/installation) uniquement sur environnement [Docker](https://hub.docker.com/r/roflcoopter/viseron) , avec ou sans accélération matérielle ([CUDA](https://fr.wikipedia.org/wiki/Compute_Unified_Device_Architecture), [VAAPI](https://fr.wikipedia.org/wiki/Video_Acceleration_API), Google Coral Edge TPU)
   - source [github](https://github.com/roflcoopter/viseron) ; codé principalement en Python.
 
-- [Shinobi](https://shinobi.video/) : 
-  - slogan: The open-source CCTV solution ;
+- [Shinobi](https://shinobi.video/) : the open-source CCTV solution ;
   - [doc](https://docs.shinobi.video/), [repository](https://gitlab.com/Shinobi-Systems/Shinobi) ;
   - [installation](https://docs.shinobi.video/installation/docker) sur Docker ;
   - 2 [versions](https://shinobi.video/pro) : community [CE](https://gitlab.com/Shinobi-Systems/ShinobiCE) et pro.
 
-- Frigate
+- [Frigate](https://frigate.video/): Monitor your security cameras with locally processed AI
+  - 2 version : community et [pro](https://frigate.video/plus/) (Frigate+)
+  - très bonne intégration à Home Assistant ; nombreux [addons](https://www.home-assistant.io/addons/) ; 
+  - plusieurs méthodes [d'installation](https://www.home-assistant.io/installation/) dont Docker et [docker-compose](https://www.home-assistant.io/installation/generic-x86-64#docker-compose).
+  - [doc](https://docs.frigate.video/), [github](https://github.com/blakeblackshear/frigate). 
+
 - Moonfire NVR
 - motionEye : [github](https://github.com/motioneye-project/motioneye)
 - Motion : [doc](https://motion-project.github.io/), [github](https://github.com/Motion-Project/motion)
@@ -31,7 +35,22 @@ tags: NVR,  CCTV, DIY, Linux, Self-Hosted, Open-source.
   - [dépot](https://github.com/jevois/jevois) Github ; écrit en C, C++ ; solution miniaturisée.
 
 
-## matériel
+domotique
+
+- [Home Assistant](https://www.home-assistant.io/) : 
+  - slogan : Open source home automation that puts local control and privacy first. 
+  - [démo](https://demo.home-assistant.io/), [doc](https://www.home-assistant.io/docs/), [compatibilité et intégration](https://www.home-assistant.io/integrations/), [github](https://github.com/home-assistant), [docker](https://hub.docker.com/r/homeassistant/home-assistant), [openhub](https://www.openhub.net/p/home-assistant) ;
+  - alternatives : [IoBroker](https://www.iobroker.net/), [OpenHAB](https://www.openhab.org/), [CometVisu](https://www.cometvisu.org/), 
+
+# accélération matérielle
+
+tags: Intelligence Artificielle, réseau de neuronnes, Tensorflow, TPU
+
+- https://coral.ai/products/accelerator : accélérateur USB / Coral.
+
+- Intel NCS2 : accélérateur USB TPU / [description](https://www.lemondeinformatique.fr/actualites/lire-intel-sort-son-deuxieme-neural-compute-stick-73430.html).
+
+- [Intel Movidius Myriad X](https://www.intel.fr/content/www/fr/fr/products/details/processors/movidius-vpu/movidius-myriad-x.html).
 
 ## comparatifs
 - https://www.lesnumeriques.com/camera-surveillance.html
@@ -43,21 +62,11 @@ tags: NVR,  CCTV, DIY, Linux, Self-Hosted, Open-source.
 - https://linuxpip.org/open-source-nvr/
 - https://medevel.com/10-cctv-open-source-solutions/
 
-# accélération
-
-tags: Intelligence Artificielle, réseau de neuronnes, Tensorflow, TPU
-
-- https://coral.ai/products/accelerator : accélérateur USB / Coral.
-
-- Intel NCS2 : accélérateur USB TPU / [description](https://www.lemondeinformatique.fr/actualites/lire-intel-sort-son-deuxieme-neural-compute-stick-73430.html).
-
-- [Intel Movidius Myriad X](https://www.intel.fr/content/www/fr/fr/products/details/processors/movidius-vpu/movidius-myriad-x.html).
-
 # liens
 - Github / [motion-dectection](https://github.com/topics/motion-detection).
 - Openhub : [zoneminder](https://www.openhub.net/p/zoneminder), [mition-eye](https://www.openhub.net/p/motioneye), [iSpy-Motion](https://www.openhub.net/p/ispysoftware), [motion](https://www.openhub.net/p/Motion).
 - reconnaissance / IA :
-  - Darknet / [YOLO](https://pjreddie.com/darknet/yolo/) : système de reconnaissance d'objet temps-réel ; [doc](https://thedatafrog.com/fr/articles/object-detection-darknet/) ; nécessite CUDA+OpenCV.
+  - Darknet / [YOLO](https://pjreddie.com/darknet/yolo/) : système de reconnaissance d'objets temps-réel ; [doc](https://thedatafrog.com/fr/articles/object-detection-darknet/) ; nécessite CUDA+OpenCV.
 
 
 # Glossaire
