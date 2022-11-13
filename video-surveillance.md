@@ -80,13 +80,13 @@ tags: Intelligence Artificielle, réseau de neuronnes, Tensorflow, TPU
 
 
 # Glossaire
-- [NVR](https://fr.wikipedia.org/wiki/Enregistreur_vid%C3%A9o_en_r%C3%A9seau) (Network Video Recorder) : se dit des caméras permettant l'enregistrement vidéo via le réseau ; on peut aussi trouver des enregistreurs NVR tout-en-un.
-- [PTZ](https://fr.wikipedia.org/wiki/Cam%C3%A9ra_pan_tilt_zoom) (Pan Tilt Zoom) : Caméra orientable  ;
-- [CCTV](https://fr.wikipedia.org/wiki/CCTV) (Closed-Circuit TV) : système de TV privé permettant la surveillance vidéo ;
-- [TPU](https://fr.wikipedia.org/wiki/Tensor_Processing_Unit) (Tensor Processing Unit) : système d'accélération matérielle sur [Tensorflow](https://fr.wikipedia.org/wiki/TensorFlow) permettant de réaliser des fonctions d'intelligence artificielle ;
-- [CUDA](https://fr.wikipedia.org/wiki/Compute_Unified_Device_Architecture) (Compute Unified Device Architecture) : architecture matérielle permettant l'accélération pour les cartes graphiques et par extension pour des traitement numériques.
-- [ONVIF](https://en.wikipedia.org/wiki/ONVIF) (Open Network Video Interface Forum) : forum de standardisation des moyens de video-surveillance sur réseau IP ([lien](https://www.onvif.org/)) ; [lien-fr](https://camera-videosurveillance.fr/blog/143_Qu-est-ce-que-le-protocole-onvif.html).
+- [NVR](https://fr.wikipedia.org/wiki/Enregistreur_vid%C3%A9o_en_r%C3%A9seau) *(Network Video Recorder)* : se dit des caméras permettant l'enregistrement vidéo via le réseau ; on peut aussi trouver des enregistreurs NVR tout-en-un mais aussi des [enregistreurs sous forme logicielle](https://www.google.com/search?q=site%3Agithub.com+nvr+recorder).
+- [PTZ](https://fr.wikipedia.org/wiki/Cam%C3%A9ra_pan_tilt_zoom) *(Pan Tilt Zoom)* : Caméra orientable  ;
+- [CCTV](https://fr.wikipedia.org/wiki/CCTV) *(Closed-Circuit TV)* : système de TV privé permettant la surveillance vidéo ;
+- [TPU](https://fr.wikipedia.org/wiki/Tensor_Processing_Unit) *(Tensor Processing Unit)* : système d'accélération matérielle sur [Tensorflow](https://fr.wikipedia.org/wiki/TensorFlow) permettant de réaliser des fonctions d'intelligence artificielle ;
+- [CUDA](https://fr.wikipedia.org/wiki/Compute_Unified_Device_Architecture) *(Compute Unified Device Architecture)* : architecture matérielle permettant l'accélération pour les cartes graphiques et par extension pour des traitement numériques.
+- [ONVIF](https://en.wikipedia.org/wiki/ONVIF) *(Open Network Video Interface Forum)* : forum de standardisation des moyens de video-surveillance sur réseau IP ([lien](https://www.onvif.org/)) ; [lien-fr](https://camera-videosurveillance.fr/blog/143_Qu-est-ce-que-le-protocole-onvif.html).
   - c'est en principe le standard sur lequel s'appuyer pour mettre en place un système de surveillance vidéo en particulier pour une solution open-source.
   - [enregistreur vidéo](https://fr.aliexpress.com/item/1005004317130185.html) basé sur le standard ONVIF.
   - [nombreuses cameras IP compatibles ONVIF](https://fr.aliexpress.com/premium/onvif.html).
-- [MQTT](https://fr.wikipedia.org/wiki/MQTT) : bus logiciel très simple largement utilisé au niveau de IOT (Internet des Objets) et domotique.
+- [MQTT](https://fr.wikipedia.org/wiki/MQTT) *(Message Queuing Telemetry Transport)* : bus logiciel facile a utiliser, à faible empreinte mémoire largement utilisé au niveau de IOT (Internet des Objets) et domotique.
