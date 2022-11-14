@@ -62,7 +62,7 @@ tags: Intelligence Artificielle, réseau de neuronnes, Tensorflow, TPU
 
 - [Intel Movidius Myriad X](https://www.intel.fr/content/www/fr/fr/products/details/processors/movidius-vpu/movidius-myriad-x.html).
 
-## comparatifs
+# comparatifs
 - https://www.lesnumeriques.com/camera-surveillance.html
 - https://community.home-assistant.io/t/my-opinion-zoneminder-vs-motioneye-vs-shinobi/316831
 - https://blog.desdelinux.net/fr/shinobi-un-servidor-de-video-vigilancia-open-source/
@@ -72,7 +72,12 @@ tags: Intelligence Artificielle, réseau de neuronnes, Tensorflow, TPU
 - https://linuxpip.org/open-source-nvr/
 - https://medevel.com/10-cctv-open-source-solutions/
 
+# Matériel
+
+- [Hikvision](https://fr.wikipedia.org/wiki/Hikvision) : spécialiste du monde de la video-surveillance et de l'IOT.
+
 # liens
+
 - Github / [motion-dectection](https://github.com/topics/motion-detection).
 - Openhub : [zoneminder](https://www.openhub.net/p/zoneminder), [mition-eye](https://www.openhub.net/p/motioneye), [iSpy-Motion](https://www.openhub.net/p/ispysoftware), [motion](https://www.openhub.net/p/Motion).
 - reconnaissance / IA :
