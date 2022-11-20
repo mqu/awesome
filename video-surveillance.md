@@ -1,14 +1,14 @@
 # Video-surveillance augmentée
 *Awesome links in French ; collection de liens en Français ; video-monitoring.*
 
-Cette page recense les logiciels open-source et les standards permettant la mise en place de la vidéo-surveillance augmentée avec l'appui d'accélérateurs matériels (TPU) donnant accès à des fonctionalités de reconnaissance d'objets et de mouvements sur des flux vidéo temps-réel.
+Cette page recense les logiciels open-source et les standards permettant la mise en place de la vidéo-surveillance augmentée avec l'appui d'accélérateurs matériels (TPU) donnant accès à des fonctionalités de reconnaissance d'objets, de mouvements et faciale sur des flux vidéo temps-réel.
 
 *tags: NVR,  CCTV, DIY, Linux, Self-Hosted, Open-source, TPU, NVR, ONVIF.*
 
 # camera de surveillance
 
 ## Logiciels
-- [ZoneMinder](https://zoneminder.com/) : A full-featured, open source, state-of-the-art video surveillance software system.
+- [ZoneMinder](https://zoneminder.com/) : a full-featured, open source, state-of-the-art video surveillance software system.
   - [doc](https://zoneminder.readthedocs.io/), [wiki](https://wiki.zoneminder.com), [github](https://github.com/ZoneMinder/ZoneMinder/)
   - [liste de compatibilité](https://wiki.zoneminder.com/Hardware_Compatibility_List) avec en particulier les caméras au standard ONVIF; 
   - [docker](https://github.com/ZoneMinder/zmdockerfiles), 
