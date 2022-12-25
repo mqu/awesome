@@ -7,3 +7,8 @@ Cet espace Web contient un ensemble de documents et de lien en rapport avec le l
 - [service de messagerie](mail-server.md) basé sur SMTP, solutions tout en un permettant d'apporter un sorte de self-service ;
 
 Vous pouvez ouvrir un ticket pour toute demande complémentaire ou envoyer un merge-request pour apporter un complément d'information ou corriger une erreur sur ce site.
+
+Liens:
+
+- https://github.com/awesome-selfhosted/awesome-selfhosted
+
