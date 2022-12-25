@@ -11,4 +11,5 @@ Vous pouvez ouvrir un ticket pour toute demande complémentaire ou envoyer un me
 Liens:
 
 - https://github.com/awesome-selfhosted/awesome-selfhosted
+- https://github.com/awesome-foss/awesome-sysadmin
 
