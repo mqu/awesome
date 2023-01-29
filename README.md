@@ -11,6 +11,8 @@ Vous pouvez ouvrir un ticket pour toute demande complémentaire ou envoyer un me
 Liens:
 
 - https://github.com/awesome-selfhosted/awesome-selfhosted
+- https://github.com/newTendermint/awesome-analytics
+- https://github.com/newTendermint/awesome-bigdata
 - https://github.com/awesome-foss/awesome-sysadmin
 - https://github.com/kba/awesome-ocr
 - https://github.com/zenitysec/awesome-low-code
