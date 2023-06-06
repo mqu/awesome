@@ -17,6 +17,10 @@ Liens:
 - https://github.com/kba/awesome-ocr
 - https://github.com/zenitysec/awesome-low-code
 
+wordpress:
+- https://github.com/miziomon/awesome-wordpress
+- https://github.com/dropndot/awesome-wordpress
+
 - awesome-awesome
   - https://github.com/t3chnoboy/awesome-awesome-awesome
   - https://github.com/jnv/lists
