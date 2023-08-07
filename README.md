@@ -27,4 +27,5 @@ wordpress:
   - https://github.com/bayandin/awesome-awesomeness
   - https://github.com/sindresorhus/awesome
   - https://github.com/topics/awesome-list
+  - https://github.com/docker/awesome-compose
 
