@@ -18,6 +18,7 @@ Liens:
 - https://github.com/zenitysec/awesome-low-code
 - https://github.com/veggiemonk/awesome-docker
 - https://github.com/docker/awesome-compose
+- https://github.com/meirwah/awesome-workflow-engines
 
 wordpress:
 - https://github.com/miziomon/awesome-wordpress
