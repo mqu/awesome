@@ -20,6 +20,7 @@ Liens:
 - https://github.com/veggiemonk/awesome-docker
 - https://github.com/docker/awesome-compose
 - https://github.com/meirwah/awesome-workflow-engines
+- https://github.com/tehtbl/awesome-note-taking
 
 wordpress:
 - https://github.com/miziomon/awesome-wordpress
